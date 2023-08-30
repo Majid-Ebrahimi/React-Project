@@ -1,0 +1,48 @@
+.div {
+    padding: 1rem;
+    display: inline-flex;
+}
+
+.div img {
+    max-width: 10rem;
+    max-height: 10rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    border-radius: 6px;
+    object-fit: cover;
+    align-self: start;
+}
+
+
+.div address {
+    font-size: 14px;
+}
+
+.actions {
+text-align: right;
+}
+.actions button {
+    background-color: white;
+    border: #77002e 1px solid;
+    border-radius: 4px;
+    color: #77002e;
+    margin-left: 15rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.div button:active {
+    background-color: #ffc3c3;
+}
+
+.div2 h4{
+    margin-right: 12rem;
+}
+
+.div2 p{
+    margin-left: 2rem;
+}
+
+.div2{
+  margin-left: 2rem;
+    display: inline;
+}
