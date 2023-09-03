@@ -16,8 +16,6 @@ function AllUsersPage(){
     const [loadedUsers, setLoadedUsers] = useState<User[]>([])
 
     useEffect(() => {
-
-
         setIsLoading(true)
         fetch('https://react-first-firebase-51f1d-default-rtdb.firebaseio.com/users.json', {
                 method: 'GET'

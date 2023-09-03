@@ -12,11 +12,11 @@ function UserItem(props: {
     return (
         <Card>
             <div className={classes.div}>
-                <img src={props.profile_photo_url} alt={props.first_name}/>
+                <img src={props.profile_photo_url} alt={props.first_name + ' ' + props.last_name}/>
                 <div className={classes.div2}>
-                    <h4>{props.first_name} {props.last_name}</h4>
-                    <p>Email Address: <address>{props.email}</address></p>
-                    <p>Birth Date: {props.date_of_birth}</p>
+                    <h3>{props.first_name} {props.last_name}</h3>
+                    <p>Email Address: <b>{props.email}</b></p>
+                    <p>Birth Date: <b>{props.date_of_birth}</b></p>
                     <div className={classes.actions}>
                         <button>Add to Favorites</button>
                     </div>

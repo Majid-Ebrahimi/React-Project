@@ -13,7 +13,7 @@ function NewUserPage() {
             }
         ).then(()=>{
             history("/");
-        },err => {
+        },() => {
             alert("Connection Lost!!!")
         })
     }

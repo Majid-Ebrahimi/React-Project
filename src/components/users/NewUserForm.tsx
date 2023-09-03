@@ -21,8 +21,8 @@ function NewUserForm(props: any) {
         const birthDateEntered = birthDateInputRef.current.value;
 
         const userData = {
-            first_Name: firstNameEntered,
-            last_Name: lastNameEntered,
+            first_name: firstNameEntered,
+            last_name: lastNameEntered,
             email: emailEntered,
             profile_photo_url: imageUrlEntered,
             date_of_birth: birthDateEntered,
