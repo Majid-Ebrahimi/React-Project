@@ -19,8 +19,9 @@
 }
 
 .actions {
-text-align: right;
+    text-align: right;
 }
+
 .actions button {
     background-color: white;
     border: #77002e 1px solid;
@@ -34,15 +35,15 @@ text-align: right;
     background-color: #ffc3c3;
 }
 
-.div2 h3{
+.div2 h4 {
     margin-right: 12rem;
 }
 
-.div2 p{
+.div2 p {
     margin-left: 2rem;
 }
 
-.div2{
-  margin-left: 2rem;
+.div2 {
+    margin-left: 2rem;
     display: inline;
 }

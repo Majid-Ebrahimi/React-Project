@@ -1,8 +1,9 @@
 import MainNavigationBar from "./MainNavigation";
 import classes from "./Layout.module.css"
-function Layout(props: any){
+
+function Layout(props: any) {
     return <div>
-            <MainNavigationBar/>
+        <MainNavigationBar/>
         <main className={classes.main}>{props.children}</main>
     </div>
 }

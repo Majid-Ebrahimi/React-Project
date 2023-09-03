@@ -2,7 +2,7 @@ import UserItem from "./UserItem";
 import classes from "./UserList.module.css"
 
 interface User {
-    user_id: number;
+    user_id: string;
     profile_photo_url: string;
     first_name: string;
     last_name: string;
@@ -19,7 +19,7 @@ function UserList(props: UserListProps) {
         <ul className={classes.ul}>
             {props.users.map((user) => (
                 <UserItem
-                    key={user.user_id}
+                    user_id={user.user_id}
                     profile_photo_url={user.profile_photo_url}
                     first_name={user.first_name}
                     last_name={user.last_name}
