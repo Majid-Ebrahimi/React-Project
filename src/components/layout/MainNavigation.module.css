@@ -30,6 +30,15 @@
     color: #88dfdf;
 }
 
+
+.badge {
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(1, 38, 211, 0.39);
+    padding:0 1rem;
+    margin-left: 0.5rem;
+}
+
 .nav a:hover,
 .nav a:active,
 .nav a.active {
