@@ -1,6 +1,5 @@
 import {createContext, useState} from "react";
 
-
 interface FavoritesContextTypes {
     favorites: User[],
     totalFavorites: number,
@@ -17,7 +16,6 @@ interface User {
     email: string;
     date_of_birth: string;
 }
-
 
 const FavoritesContext = createContext<FavoritesContextTypes>({
     favorites: [],
@@ -46,7 +44,6 @@ export function FavoritesContextProvider(props: any) {
     function itemIsFavoriteHandler(userId: string) {
         return userFavorites.some(user => user.user_id === userId)
     }
-
 
     const context = {
         favorites: userFavorites,
